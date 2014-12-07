@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'acts-as-taggable-on', '~> 3.4'
+
+group :development do
+  gem "better_errors"
+end
